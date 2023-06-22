@@ -1,0 +1,302 @@
+body{
+    background-color:#e4e1dc;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+#outer_div {
+    background-color: #f4f1ea;
+    
+    height: 750px;
+    padding: 1.6%;
+    margin: 2%;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 25px;
+  }
+  .welcome{
+    margin: 0px;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-stretch: ultra-expanded;
+    
+    
+  }
+  
+  .top_right_image{
+    position: absolute;
+    right: 180px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 100px;
+    width: 50px;
+    
+  }
+  hr{
+    margin: 0px;
+    position: absolute;
+    width: 30px;
+    top: 45px;
+    left: 8px;
+  
+  }
+#mic{
+  margin: 0px;
+  position: absolute;
+  left: 12px;
+  height: 20px;
+  top: 8px;
+}
+
+#mic2{
+  margin: 0px;
+  position: absolute;
+  left: 12px;
+  height: 0px;
+  bottom: 8px;
+}
+  img{
+    border-radius: 50%;
+  }
+
+  #align{
+    padding-right: 46.5%;
+    
+  }
+
+  .container{
+    margin-left: 390px;
+    display: flex;
+    padding: 10px;
+   
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .card{
+    border-radius: 25px;
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+
+  .signup{
+    position: absolute;
+    right: 860px;
+    top: 285px;
+  }
+
+  #margin{
+    margin-top: 100px;
+  }
+
+
+  .line_breaked{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 26px;
+  }
+
+  .line_breaked::before, .line_breaked::after{
+    flex: 1;
+    content: '';
+    background-color: black;
+    padding: 1px;
+    margin: 30px;
+  }
+
+  #text_show{
+    position: absolute;
+    top: 335px;
+    right: 800px;
+  }
+  .format{
+    border-radius: 20px;
+    
+    background-color: white;
+    width: 1730px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    height: 370px;
+}
+
+.lower{
+  position:fixed;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin-top: 8%;
+  margin-left: 1.2%;
+}
+#alignment{
+    display: flex;
+    flex-direction: row;
+
+    /* padding-left: 5px; */
+    
+    
+}
+.input-text{
+    
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    
+}
+.align1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 2%;
+  
+    
+    /* width: 40%; */
+    
+    
+}
+.align2{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 2%;
+    /* width: 40%; */
+    
+    
+}
+#btn1{
+    color: white;
+    background-color: #03352f;
+    width: 25%;
+    height: 17%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.input-text{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+#btn2{
+    color: white;
+    background-color:#ee5b47;
+    width: 25%;
+    height: 17%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.line_breaked{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gap{
+  display: flex;
+  padding: 0px;
+}
+
+h5{
+  line-height: 1px;
+  width: 25%;
+  border-bottom: 1px solid black
+}
+h5 span{
+background-color: white;
+  padding: 10px;
+}
+
+.row{
+ margin-top: 20px;
+ text-align: start;
+ 
+ 
+}
+
+.image{
+  height: 60px;
+  width: 60px;
+  border-radius: 10%;
+  position: absolute;
+  right: 750px;
+  top: 280px;
+  
+}
+.hyptext{
+
+  position: absolute;
+  right: 578px;
+  top: 350px;
+  max-width: 230px;
+  text-align: start;
+  
+
+}
+
+.eye{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 510px;
+  bottom: 132px;
+}
+.checkbox{
+  width: 25px;
+  height: 25px;
+  
+
+}
+
+.dots{
+  position: absolute;
+  
+  top: 255px;
+  left: 585px;
+}
+
+.dots2{
+  position: absolute;
+  
+  
+  top: 255px;
+  left: 745px;
+}
+
+.spot{
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  top: 260px;
+  left: 650px;
+}
+
+.spot2{
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  top: 260px;
+  left: 490px;
+}
+
+.footer{
+  font-size: x-small;
+  font-weight: -100;
+}
+
